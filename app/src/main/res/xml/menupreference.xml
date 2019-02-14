@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:fragment="com.app.demo.NetWorkFragment"
+        android:icon="@mipmap/setting_icon_network"
+        android:key="network"
+        android:title="网络" />
+
+    <Preference
+        android:fragment="com.app.demo.DisPlayFragment"
+        android:icon="@mipmap/setting_icon_screen"
+        android:key="display"
+        android:title="显示" />
+
+    <Preference
+        android:fragment="com.app.demo.RemindFragment"
+        android:icon="@mipmap/setting_icon_remind"
+        android:key="remind"
+        android:title="提醒" />
+
+    <Preference
+        android:fragment="com.app.demo.SoundFragment"
+        android:icon="@mipmap/setting_icon_sound"
+        android:key="sound"
+        android:title="音效" />
+
+    <Preference
+        android:fragment="com.app.demo.VehicleFragment"
+        android:icon="@mipmap/setting_icon_car"
+        android:key="vehicle"
+        android:title="车辆" />
+
+    <Preference
+        android:fragment="com.app.demo.SystemFragment"
+        android:icon="@mipmap/setting_icon_system"
+        android:key="system"
+        android:title="系统" />
+
+</PreferenceScreen>
